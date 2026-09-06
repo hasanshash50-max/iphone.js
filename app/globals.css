@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui;
+}
+*{
+   box-sizing: border-box;
+}
+#two{
+      position: absolute;
+      top: 290px;
+      left: 13px;
+      padding: 10px;
+      width: 250px;
+      text-align: center;
+      background: gray;
+   }
+#three{
+      position: absolute;
+      top: 380px;
+      left: 13px;
+      padding: 10px;
+      width: 210px;
+      text-align: center;
+      background: gray;
+   }
+#four{
+      position: absolute;
+      top: 470px;
+      left: 13px;
+      padding: 10px;
+      width: 170px;
+      text-align: center;
+      background: gray;
+}
+.parent{
+   background: #80808079;
+   height: 540px;
+   width: 99%;
+   margin: auto;
+   margin-top: 2px;
+}
+#link:hover{
+   text-decoration: underline;
+   text-underline-offset: 13px;
+}
+/* nav{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #05cfcf;
+  padding: 5px;
+  width: 95%;
+  margin: 15px;
+  border-radius: 25px;
+}
+:link{
+  padding: 5px;
+  border-radius: 20px;
+}
+:any-link:hover{
+    color: #2745f0;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+h1{
+   position: absolute;
+   top: 80px;
+   color: #fff;
+}
+#link{
+   position: absolute;
+   top: 90px;
+} */
