@@ -65,12 +65,10 @@ nav{
 
 .iphons{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr);
     padding-top: 20px;
     gap: 20px;
-    width: 200px;
-    margin: auto;
-    margin-left: 340px;
+    margin-left: 20px;
 }
 
 .sum{
