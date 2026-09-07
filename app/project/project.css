@@ -10,7 +10,7 @@ nav{
     padding: 15px;
     width: 90%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 13px;
     border-radius: 30px;
     font-size: 17px;
     font-weight: 620;
@@ -82,8 +82,7 @@ nav{
     }
     .iphons{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin-left: 70px;
+        grid-template-columns: repeat(2,200px);
     }
     .next{
         margin: auto;
