@@ -13,7 +13,8 @@ nav{
     margin-top: 13px;
     border-radius: 30px;
     font-size: 17px;
-    font-weight: 620;
+    font-weight: bolder;
+    font-family: system-ui;
 }
 :any-link:hover{
     text-decoration: underline;
@@ -60,7 +61,7 @@ nav{
     margin: auto;
     gap: 20px;
     padding: 20px;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 .sum{
     background: #fff;
@@ -75,15 +76,14 @@ nav{
     font-weight: bolder;
     text-align: center;
 }
-@media screen and (max-width : 400px)
+@media screen and (max-width : 720px)
 {
-    .next{
-        margin: auto;
-    }
     .iphons{
         display: grid;
-        grid-template-columns: repeat(2,200px);
-        margin-left: -30px;
+        grid-template-columns: repeat(3,200px);
+        width: 690px;
+        margin: auto;
+        gap: 7px;
     }
     .next{
         margin: auto;
@@ -92,5 +92,6 @@ nav{
     .abs{
         margin: auto;
         margin-top: 30px;
+        width: 87%;
     }
 }
