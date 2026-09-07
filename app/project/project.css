@@ -56,10 +56,10 @@ nav{
 }
 .iphons{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(3,200px);
+    margin: auto;
     gap: 20px;
     padding: 20px;
-    margin: auto;
 }
 .sum{
     background: #fff;
@@ -76,6 +76,9 @@ nav{
 }
 @media screen and (max-width : 660px)
 {
+    .next{
+        margin: auto;
+    }
     .iphons{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -87,8 +90,6 @@ nav{
     }
     .abs{
         margin: auto;
-        margin-top: 10px;
-        margin-bottom: 30px;
-        width: 80%;
+        margin-top: 30px;
     }
 }
