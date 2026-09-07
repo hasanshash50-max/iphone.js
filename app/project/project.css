@@ -56,10 +56,11 @@ nav{
 }
 .iphons{
     display: grid;
-    grid-template-columns: repeat(3,200px);
+    grid-template-columns: repeat(3,300px);
     margin: auto;
     gap: 20px;
     padding: 20px;
+    margin-left: 80px;
 }
 .sum{
     background: #fff;
