@@ -76,7 +76,7 @@ nav{
     font-weight: bolder;
     text-align: center;
 }
-@media(max-width : 700px)
+@media screen and (max-width : 393px)
 {
     .iphons{
         display: grid;
@@ -94,3 +94,7 @@ nav{
         width: 80%;
     }
 }
+/* @media screen and (min-width : 394px) and (max-width : 720px)
+{
+
+} */
