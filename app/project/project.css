@@ -56,11 +56,12 @@ nav{
 }
 .iphons{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
     padding: 15px;
     width: 80%;
     margin: auto;
+    margin-left: 200px;
 }
 .sum{
     background: #fff;
@@ -81,5 +82,15 @@ nav{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-left: 70px;
+    }
+    .next{
+        margin: auto;
+        margin-top: 80px;
+    }
+    .abs{
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 80%;
     }
 }
