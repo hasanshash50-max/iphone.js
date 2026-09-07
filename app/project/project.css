@@ -5,10 +5,10 @@ body{
 nav{
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 80px;
     background: #5900ff;
     padding: 15px;
-    width: 600px;
+    width: 90%;
     margin: auto;
     margin-top: 10px;
     border-radius: 30px;
@@ -56,7 +56,7 @@ nav{
 }
 .iphons{
     display: grid;
-    grid-template-columns: repeat(3,300px);
+    grid-template-columns: repeat(4,1fr);
     margin: auto;
     gap: 20px;
     padding: 20px;
@@ -75,7 +75,7 @@ nav{
     font-weight: bolder;
     text-align: center;
 }
-@media screen and (max-width : 660px)
+@media screen and (max-width : 340px)
 {
     .next{
         margin: auto;
