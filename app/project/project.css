@@ -2,6 +2,7 @@ body{
     background: #222;
     color: #fff;
 }
+
 nav{
     display: flex;
     justify-content: center;
@@ -16,11 +17,13 @@ nav{
     font-weight: bolder;
     font-family: system-ui;
 }
+
 :any-link:hover{
     text-decoration: underline;
     text-underline-offset: 20px;
     color: #16fafa;
 }
+
 .next{
     border: solid 2px #fff;
     width: 300px;
@@ -30,19 +33,23 @@ nav{
     margin-top: 80px;
     border-radius: 150px;
 }
+
 #next{
     position: relative;
     top: 20px;
     font-size: 40px;
 }
+
 #link{
     color: #5900ff;
 }
+
 #link:hover{
     color: #8400ff;
     text-decoration: underline;
     text-underline-offset: 10px;
 }
+
 .abs{
     background: #fff;
     color: #000;
@@ -55,6 +62,7 @@ nav{
     border: solid 1px #000;
     border-radius: 10px;
 }
+
 .iphons{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -64,6 +72,7 @@ nav{
     margin: auto;
     margin-left: 340px;
 }
+
 .sum{
     background: #fff;
     width: 200px;
@@ -77,19 +86,20 @@ nav{
     font-weight: bolder;
     text-align: center;
 }
-@media screen and (max-width : 720px)
+@media screen and (max-width: 720px)
 {
     .iphons{
-        display: grid;
         grid-template-columns: repeat(1,200px);
-        width: 240px;
+        width: 200px;
         margin: auto;
         gap: 13px;
     }
+
     .next{
         margin: auto;
         margin-top: 80px;
     }
+
     .abs{
         margin: auto;
         margin-top: 30px;
