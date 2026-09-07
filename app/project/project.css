@@ -94,7 +94,9 @@ nav{
         width: 80%;
     }
 }
-/* @media screen and (min-width : 394px) and (max-width : 720px)
+@media  (min-width : 394px) and (max-width : 720px)
 {
-
-} */
+    .iphone{
+        margin-left: 20px;
+    }
+}
