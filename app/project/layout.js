@@ -7,7 +7,7 @@ export default function({children})
             <nav>
                 <Link href="/project">Home</Link>
                 <Link href="/project/post">post</Link>
-                <Link href="/project/image">iphone</Link>
+                <Link href="/project/iphone">iphone</Link>
             </nav>
             {children}
         </div>
