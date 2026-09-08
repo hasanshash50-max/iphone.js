@@ -104,3 +104,9 @@ nav{
         width: 87%;
     }
 }
+@media((min-width : 721px) and ( max-width: 1900px)) {
+    .iphons{
+        width: 200px;
+        margin-left: 300px;
+    }
+}   
